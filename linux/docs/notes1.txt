@@ -1,0 +1,147 @@
+    4  pacman -S xorg-server xorg-xinit
+    5  sudo pacman -S xorg-server xorg-xinit
+   18  pacman -S git
+   19  sudo pacman -S git
+   42  pacman -S st
+   43  sudo pacman -S st
+   57  pacman -S xorg-xinit
+   58  sudo pacman -S xorg-xinit
+   59  sudo pacman -S xorg-utils xorg-server-utils
+   60  sudo pacman -S xterm
+   61  sudo pacman -S twm
+   62  sudo pacman -S xorg-utils
+   69  pacman -Ss xf86-video-intel
+   70  pacman -Ss xf86-video-inte
+   71  sudo pacman -S xf86-video-intel
+   81  pacman -S zsh
+   82  sudo pacman -S zsh
+   88  sudo pacman -S fbdev
+   89  sudo pacman -Ss xf86-video
+   91  pacman -S xorg-server
+   92  sudo pacman -S xorg-server
+   93  sudo pacman -S xorg-apps
+   94  sudo pacman -S xf86-video-intel
+  116  pacman -S ag
+  117  sudo pacman -S ag
+  118  sudo pacman -S the_silver_searcher
+  131  sudo pacman -S nerd-fonts-complete
+  133  sudo pacman -S emacs
+  153  history | ag "pacman -S"
+  154  cat ~/.bash_history  | ag "pacman -S"
+  156  cat ~/.bash_history  | ag "pacman -S" > ~/install_history_so_far
+  157  history | ag "pacman -S" > ~/install_history_so_far
+pacman -S xorg-server xorg-xinit
+sudo pacman -S xorg-server xorg-xinit
+pacman -S git
+sudo pacman -S git
+sudo cat /root/.bash_history  | ag "pacman -S"
+pacman -S networkmanager
+pacman -S grub
+pacman -S dialog
+pacman -S neofetch
+autoconf 2.69-5
+automake 1.16.1-1
+bison 3.3.2-1
+emacs 26.2-1
+fakeroot 1.23-1
+fasd 1.0.1-2
+firefox 67.0.2-1
+flex 2.6.4-2
+fzf 0.18.0-1
+grub 2:2.02-8
+gtk-xfce-engine 2.10.1-2
+haxe 3.4.7-1
+iputils 20180629.f6aac8d-4
+jfsutils 1.1.15-6
+jq 1.6-2
+licenses 20181104-1
+linux 5.1.9.arch1-1
+logrotate 3.15.0-1
+lvm2 2.02.185-1
+make 4.2.1-3
+man-db 2.8.5-2
+man-pages 5.01-1
+mdadm 4.1-1
+mousepad 0.4.1-1
+nano 4.2-1
+neofetch 6.0.0-1
+netctl 1.20-1
+openssh 8.0p1-1
+orage 4.12.1-4
+pacman 5.1.3-1
+parole 1.0.2-1
+patch 2.7.6-7
+pciutils 3.6.2-1
+pkgconf 1.6.1-1
+psmisc 23.2-1
+reiserfsprogs 3.6.27-2
+ristretto 0.8.4-1
+sudo 1.8.27-1
+the_silver_searcher 2.2.0-1
+usbutils 010-1
+vi 1:070224-3
+xclip 0.13-2
+xf86-video-intel 1:2.99.917+863+g6afed33b-1
+xfburn 0.5.5-1
+xfce4-appfinder 4.12.0-5
+xfce4-artwork 0.1.1a_git20110420-5
+xfce4-battery-plugin 1.1.2-1
+xfce4-clipman-plugin 1.4.3-1
+xfce4-cpufreq-plugin 1.2.1-1
+xfce4-cpugraph-plugin 1.0.5-5
+xfce4-datetime-plugin 0.7.1-1
+xfce4-dict 0.8.2-1
+xfce4-diskperf-plugin 2.6.1-2
+xfce4-eyes-plugin 4.5.0-1
+xfce4-fsguard-plugin 1.1.0-2
+xfce4-genmon-plugin 4.0.1-1
+xfce4-mailwatch-plugin 1.2.0-8
+xfce4-mount-plugin 1.1.3-1
+xfce4-mpc-plugin 0.5.1-1
+xfce4-netload-plugin 1.3.1-2
+xfce4-notes-plugin 1.8.1-3
+xfce4-notifyd 0.4.4-1
+xfce4-power-manager 1.6.2-1
+xfce4-pulseaudio-plugin 0.4.1-1
+xfce4-screenshooter 1.9.5-1
+xfce4-sensors-plugin 1.3.92-1
+xfce4-session 4.12.1-11
+xfce4-settings 4.12.4-2
+xfce4-smartbookmark-plugin 0.5.0-2
+xfce4-systemload-plugin 1.2.2-1
+xfce4-taskmanager 1.2.2-1
+xfce4-terminal 0.8.7.4-1
+xfce4-time-out-plugin 1.0.2-3
+xfce4-timer-plugin 1.7.0-1
+xfce4-verve-plugin 2.0.0-1
+xfce4-wavelan-plugin 0.6.0-2
+xfce4-weather-plugin 0.8.11-1
+xfce4-whiskermenu-plugin 2.3.2-1
+xfce4-xkb-plugin 0.8.1-1
+xfdesktop 4.13.4-1
+xfsprogs 4.20.0-2
+xfwm4-themes 4.10.0-3
+xorg-server 1.20.5-1
+xorg-sessreg 1.1.2-1
+xorg-smproxy 1.0.6-2
+xorg-x11perf 1.6.1-1
+xorg-xbacklight 1.2.2-1
+xorg-xcmsdb 1.0.5-2
+xorg-xcursorgen 1.0.7-1
+xorg-xdriinfo 1.0.6-1
+xorg-xev 1.2.3-1
+xorg-xgamma 1.0.6-2
+xorg-xhost 1.0.8-1
+xorg-xinput 1.6.2-2
+xorg-xkbevd 1.1.4-2
+xorg-xkbutils 1.0.4-3
+xorg-xkill 1.0.5-1
+xorg-xlsatoms 1.1.3-1
+xorg-xlsclients 1.1.4-1
+xorg-xpr 1.0.5-1
+xorg-xrefresh 1.0.6-1
+xorg-xset 1.2.4-1
+xorg-xsetroot 1.1.2-1
+xorg-xvinfo 1.1.4-1
+xorg-xwd 1.0.7-1
+xorg-xwud 1.0.5-1
