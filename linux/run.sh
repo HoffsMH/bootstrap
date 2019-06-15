@@ -32,6 +32,8 @@ adduser $USERNAME
 
 mkdir -p "$USER_HOME/code/util/aur" \
          "$USER_HOME/code/util/" \
+         "$USER_HOME/code/paid/" \
+         "$USER_HOME/code/fun/" \
          "$PERSONAL_DIR/00-capture" \
          "$PERSONAL_DIR/01-schedule"
 
@@ -73,15 +75,14 @@ su $USERNAME
 
 yay -S --noconfirm \
     nerd-fonts-complete \
-
-aur
-nerd-fonts-complete
-
+    nodenv \
+    nodenv-node-build \
 
 cd ~/code/util
 
 git clone https://github.com/robby-russell/oh-my-zsh.git
 git clone https://github.com/denysdovhan/spaceship-prompt.git
+git clone https://github.com/mururu/exenv.git
 
 git clone https://git.suckless.org/dwm
 git clone https://git.suckless.org/st
@@ -93,11 +94,12 @@ cd ~
 # arch linux dotfile link recipe
 link all the things
 ln -sf ~/personal/dotfiles/.spacemacs ~/.
+ln -sf ~/personal/dotfiles/.gitignore_global ~/.
+ln -sf ~/personal/dotfiles/.gitconfig ~/.
+ln -sf ~/personal/dotfiles/ssh/config ~/.ssh/config
+
 ln -sf ~/code/util/oh-my-zsh ~/.oh-my-zsh
 ln -sf ~/code/util/spacemacs ~/.emacs.d
-
-
-
 
 exit
 
