@@ -20,14 +20,6 @@
 
 source "./config.sh"
 
-# still in usb
-./pacstrap.sh
-
-genfstab -U /mnt >> /mnt/etc/fstab
-
-# everything relative to /mnt after this
-arch-chroot /mnt
-
 pacman -S --noconfirm \
        fzf \
        fasd \

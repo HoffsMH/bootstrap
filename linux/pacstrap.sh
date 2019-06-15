@@ -11,3 +11,5 @@ pacstrap /mnt \
          git \
          xorg-server \
          xorg-xinit
+
+genfstab -U /mnt >> /mnt/etc/fstab
