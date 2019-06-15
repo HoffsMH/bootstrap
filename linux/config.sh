@@ -1,3 +1,4 @@
+# xf86-video-*
 GRAPHICS_DRIVER=""
 USERNAME=""
 DOTFILES_REPO=""
