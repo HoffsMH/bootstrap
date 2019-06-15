@@ -38,6 +38,8 @@ arch-chroot /mnt
 
 ./locale_time.sh
 
+passwd
+
 echo "###############################################"
 echo "REBOOT TIME"
 echo "###############################################"
