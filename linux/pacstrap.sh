@@ -14,13 +14,3 @@ pacstrap /mnt \
          xorg-server-utils \
          zsh \
          the_silver_searcher
-         fasd \
-         fzf \
-         jq \
-         firefox \
-         neofetch \
-         openssh \
-         sudo \
-         networkmanager \
-         grub \
-         figlet

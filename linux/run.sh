@@ -28,6 +28,18 @@ genfstab -U /mnt >> /mnt/etc/fstab
 # everything relative to /mnt after this
 arch-chroot /mnt
 
+pacman -S --noconfirm \
+       fzf \
+       fasd \
+       jq \
+       firefox \
+       neofetch \
+       openssh \
+       sudo \
+       networkmanager \
+       grub \
+       figlet
+
 adduser $USERNAME
 
 mkdir -p "$USER_HOME/code/util/aur" \
@@ -76,7 +88,7 @@ su $USERNAME
 yay -S --noconfirm \
     nerd-fonts-complete \
     nodenv \
-    nodenv-node-build \
+    nodenv-node-build
 
 cd ~/code/util
 
