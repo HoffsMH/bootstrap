@@ -53,9 +53,6 @@ mkdir -p "$USER_HOME/code/util/aur" \
 # install and aurutils for later scripts
 git clone $DOTFILES_REPO "$PERSONAL_DIR/dotfiles"
 
-nmcli device wifi connect $WIFI_SSID password $WIFI_PASSWORD
-
-systemctl enable NetworkManager
 
 grub-install --target=$GRUB_TARGET /dev/sda
 grub-mkconfig -o /boot/grub/grub.cfg
@@ -77,6 +74,9 @@ echo $HOSTNAME > /etc/hostname
 
 #speed up aur makepkg
 sed -i '/MAKEFLAGS=/c\MAKEFLAGS="-j$(nproc)"' /etc/makepkg.conf
+
+nmcli device wifi connect $WIFI_SSID password $WIFI_PASSWORD
+systemctl enable NetworkManager
 
 su $USERNAME
 
