@@ -10,7 +10,4 @@ pacstrap /mnt \
          emacs \
          git \
          xorg-server \
-         xorg-xinit \
-         xorg-server-utils \
-         zsh \
-         the_silver_searcher
+         xorg-xinit

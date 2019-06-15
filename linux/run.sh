@@ -38,7 +38,10 @@ pacman -S --noconfirm \
        sudo \
        networkmanager \
        grub \
-       figlet
+       figlet \
+       zsh \
+       the_silver_searcher
+
 
 adduser $USERNAME
 
