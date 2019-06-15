@@ -2,6 +2,10 @@
 
 source "./config.sh"
 
+echo "###############################################"
+echo "RUNNING PACSCTRAP"
+echo "###############################################"
+
 pacstrap /mnt \
          base \
          base-devel \
