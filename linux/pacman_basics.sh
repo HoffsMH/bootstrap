@@ -19,4 +19,7 @@ pacman -S --noconfirm \
        grub \
        figlet \
        zsh \
-       the_silver_searcher
+       the_silver_searcher \
+       ttf-linux-libertine \
+       ttf-inconsolata \
+       noto-fonts

@@ -11,11 +11,16 @@ echo "###############################################"
 nmcli device wifi connect $WIFI_SSID password $WIFI_PASSWORD
 systemctl enable NetworkManager
 
+Xorg :0 -configure
+cp -r /root/xorg.conf.new /etc/X11/xorg.conf
+
+
+
+su $USERNAME
+
 ./create_dirs.sh
 
 ./install_yay.sh
-
-su $USERNAME
 
 yay -S --noconfirm \
     nerd-fonts-complete \
@@ -43,6 +48,7 @@ ln -sf ~/personal/dotfiles/.spacemacs ~/.
 ln -sf ~/personal/dotfiles/.gitignore_global ~/.
 ln -sf ~/personal/dotfiles/.gitconfig ~/.
 ln -sf ~/personal/dotfiles/ssh/config ~/.ssh/config
+ln -sf ~/personal/dotfiles/.xinitrc ~/.
 
 ln -sf ~/code/util/oh-my-zsh ~/.oh-my-zsh
 ln -sf ~/code/util/spacemacs ~/.emacs.d
