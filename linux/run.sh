@@ -22,14 +22,6 @@ set -e
 
 source "./config.sh"
 
-./pacstrap.sh
-
-echo "###############################################"
-echo "CHROOTING"
-echo "###############################################"
-
-arch-chroot /mnt
-
 ./pacman_basics.sh
 
 ./useradd.sh
@@ -37,6 +29,8 @@ arch-chroot /mnt
 ./install_grub.sh
 
 ./locale_time.sh
+
+./misc_admin.sh
 
 passwd
 

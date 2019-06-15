@@ -12,7 +12,4 @@ makepkg -sri
 
 cd ..
 
-rm -fr /tmp/yay-bin
-
-#speed up aur makepkg
-sed -i '/MAKEFLAGS=/c\MAKEFLAGS="-j$(nproc)"' /etc/makepkg.conf
+rm -fr ./yay-bin
