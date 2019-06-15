@@ -2,6 +2,11 @@
 
 set -e
 
+
+echo "###############################################"
+echo "PACMAN BASIC RECIPE"
+echo "###############################################"
+
 pacman -S --noconfirm \
        fzf \
        fasd \

@@ -34,18 +34,10 @@ echo "###############################################"
 
 arch-chroot /mnt
 
-echo "###############################################"
-echo "PACMAN BASIC RECIPE"
-echo "###############################################"
-
 ./pacman_basics.sh
 
-echo "###############################################"
-echo "CREATING USER"
-echo "###############################################"
+./useradd.sh
 
-adduser -m -g wheel $USERNAME
-passwd $USERNAME
 
 echo "###############################################"
 echo "CREATING DIRS"
