@@ -20,6 +20,10 @@
 
 source "./config.sh"
 
+./pacstrap.sh
+
+arch-chroot /mnt
+
 pacman -S --noconfirm \
        fzf \
        fasd \
@@ -35,7 +39,8 @@ pacman -S --noconfirm \
        the_silver_searcher
 
 
-adduser $USERNAME
+adduser -m -g wheel $USERNAME
+passwd $USERNAME
 
 mkdir -p "$USER_HOME/code/util/aur" \
          "$USER_HOME/code/util/" \
@@ -47,7 +52,6 @@ mkdir -p "$USER_HOME/code/util/aur" \
 # install and aurutils for later scripts
 git clone $DOTFILES_REPO "$PERSONAL_DIR/dotfiles"
 
-pacman -S networkmanager
 nmcli device wifi connect $WIFI_SSID password $WIFI_PASSWORD
 
 systemctl enable NetworkManager
@@ -72,9 +76,6 @@ echo $HOSTNAME > /etc/hostname
 
 #speed up aur makepkg
 sed -i '/MAKEFLAGS=/c\MAKEFLAGS="-j$(nproc)"' /etc/makepkg.conf
-
-# Go into user not root anymore
-passwd $USERNAME
 
 su $USERNAME
 
