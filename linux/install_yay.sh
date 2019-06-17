@@ -1,15 +1,19 @@
 #! /bin/bash
 
+set -e
+
 echo "###############################################"
 echo "INSTALLING YAY"
 echo "###############################################"
 
-git clone https://aur.archlinux.org/yay-bin
+mkdir ~/builds
 
-cd yay-bin
+git clone https://aur.archlinux.org/yay-bin ~/builds/
 
-makepkg -sri
+pushd ~/builds/yay-bin
 
-cd ..
+makepkg -sri --noconfirm
 
-rm -fr ./yay-bin
+popd
+
+rm -fr ~/builds/yay-bin
