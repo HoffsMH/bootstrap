@@ -22,4 +22,18 @@ pacman -S --noconfirm \
        the_silver_searcher \
        ttf-linux-libertine \
        ttf-inconsolata \
-       noto-fonts
+       noto-fonts \
+       elixir \
+       kitty \
+       fzf \
+       evtest \
+       xcape \
+       xorg-fonts-misc \
+       xorg-font-util \
+       xorg-fonts-alias \
+       xorg-fonts-encodings \
+       xorg-xev \
+       jdk-openjdk \
+       i3-gaps \
+       ttf-fira-code \
+       axel

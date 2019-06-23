@@ -15,10 +15,8 @@ su $USERNAME
 
 ./install_yay.sh
 
-yay -S --noconfirm \
-    nerd-fonts-complete \
-    nodenv \
-    nodenv-node-build
+./yay_basics.sh
+
 
 ./get_util.sh
 
