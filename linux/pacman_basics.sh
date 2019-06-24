@@ -12,7 +12,10 @@ sudo pacman -S --noconfirm \
        vim \
        fzf \
        fasd \
+       exa \
        jq \
+       xclip \
+       xorg-xclip \
        firefox \
        neofetch \
        openssh \

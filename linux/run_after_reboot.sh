@@ -2,7 +2,7 @@
 
 set -e
 
-source "./config.sh"
+source "../config.sh"
 
 ./setup_networking.sh
 

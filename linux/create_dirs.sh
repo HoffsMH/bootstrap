@@ -2,7 +2,7 @@
 
 set -e
 
-source "./config.sh"
+source "../config.sh"
 
 echo "###############################################"
 echo "CREATE DIRS"
