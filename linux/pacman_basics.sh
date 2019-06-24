@@ -41,6 +41,7 @@ sudo pacman -S --noconfirm \
        xorg-xev \
        jdk-openjdk \
        i3-gaps \
+       i3status \
        ttf-fira-code \
        axel \
        syncthing \
