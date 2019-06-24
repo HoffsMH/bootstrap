@@ -15,7 +15,7 @@ sudo pacman -S --noconfirm \
        exa \
        jq \
        xclip \
-       xorg-xclip \
+       xorg-xclipboard \
        firefox \
        neofetch \
        openssh \

@@ -3,7 +3,7 @@
 set -e
 
 echo "###############################################"
-echo "COMMON LINKS"
+echo "LINUX LINKS"
 echo "###############################################"
 
 mkdir -p ~/.config/i3/

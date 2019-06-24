@@ -8,5 +8,7 @@ echo "PACMAN BASIC RECIPE"
 echo "###############################################"
 
 yay -S --noconfirm \
+    direnv \
+    rbenv \
     nodenv \
     nodenv-node-build
