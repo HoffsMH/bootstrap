@@ -7,7 +7,9 @@ echo "###############################################"
 echo "PACMAN BASIC RECIPE"
 echo "###############################################"
 
-pacman -S --noconfirm \
+sudo pacman -Syu --noconfirm
+sudo pacman -S --noconfirm \
+       vim \
        fzf \
        fasd \
        jq \
@@ -37,4 +39,5 @@ pacman -S --noconfirm \
        i3-gaps \
        ttf-fira-code \
        axel \
-       syncthing
+       syncthing \
+       zathura

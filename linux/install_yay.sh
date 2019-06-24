@@ -6,14 +6,14 @@ echo "###############################################"
 echo "INSTALLING YAY"
 echo "###############################################"
 
-mkdir ~/builds
+mkdir ~/code/util/yay-bin
 
-git clone https://aur.archlinux.org/yay-bin ~/builds/
+git clone https://aur.archlinux.org/yay-bin ~/code/util/yay-bin
 
-pushd ~/builds/yay-bin
+pushd ~/code/util/yay-bin
 
 makepkg -sri --noconfirm
 
 popd
 
-rm -fr ~/builds/yay-bin
+rm -fr ~/code/util/yay-bin

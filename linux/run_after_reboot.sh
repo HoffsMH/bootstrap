@@ -6,8 +6,7 @@ source "./config.sh"
 
 ./setup_networking.sh
 
-Xorg :0 -configure
-cp -r /root/xorg.conf.new /etc/X11/xorg.conf
+./pacman_basics.sh
 
 su $USERNAME
 
@@ -16,7 +15,6 @@ su $USERNAME
 ./install_yay.sh
 
 ./yay_basics.sh
-
 
 ./get_util.sh
 
