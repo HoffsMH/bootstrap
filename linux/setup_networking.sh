@@ -2,7 +2,8 @@
 
 set -e
 
-source "./config.sh"
+source "$HOME/code/util/bootstrap/config.sh"
+
 
 echo "###############################################"
 echo "SETTING UP NETWORKING"

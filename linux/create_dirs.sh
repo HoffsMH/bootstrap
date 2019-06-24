@@ -2,7 +2,7 @@
 
 set -e
 
-source "../config.sh"
+source "$HOME/code/util/bootstrap/config.sh"
 
 echo "###############################################"
 echo "CREATE DIRS"
