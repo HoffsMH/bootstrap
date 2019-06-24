@@ -14,6 +14,7 @@ sudo pacman -S --noconfirm \
        fasd \
        exa \
        jq \
+       emacs \
        xclip \
        xorg-xclipboard \
        firefox \
