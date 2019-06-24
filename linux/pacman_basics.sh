@@ -36,4 +36,5 @@ pacman -S --noconfirm \
        jdk-openjdk \
        i3-gaps \
        ttf-fira-code \
-       axel
+       axel \
+       syncthing
