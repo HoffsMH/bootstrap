@@ -8,8 +8,7 @@ echo "###############################################"
 echo "CREATE DIRS"
 echo "###############################################"
 
-mkdir -p "$USER_HOME/code/util/aur" \
-      "$USER_HOME/code/util/" \
+mkdir -p "$USER_HOME/code/util" \
       "$USER_HOME/code/paid/" \
       "$USER_HOME/code/fun/" \
       "$PERSONAL_DIR/00-capture" \

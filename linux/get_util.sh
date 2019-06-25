@@ -23,8 +23,7 @@ git clone git://github.com/mururu/exenv.git
 git clone git://github.com/hlissner/zsh-autopair.git
 git clone git://github.com/syl20bnr/spacemacs.git
 git clone git://github.com/zsh-users/zsh-syntax-highlighting.git
-
-git clone https://git.suckless.org/dmenu
-git clone https://git.suckless.org/surf
+git clone git://github.com/HoffsMH/dwm.git
+git clone git://github.com/HoffsMH/dmenu.git
 
 popd
