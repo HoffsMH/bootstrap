@@ -44,6 +44,10 @@ sudo pacman -S --noconfirm \
        i3-gaps \
        i3status \
        ttf-fira-code \
+       mpg123 \
+       ntfs-3g \
+       poppler \
+       redshift \
        axel \
        syncthing \
        zathura
