@@ -28,7 +28,6 @@ sudo pacman -S --noconfirm \
        the_silver_searcher \
        ttf-linux-libertine \
        ttf-inconsolata \
-       noto-fonts \
        elixir \
        kitty \
        fzf \
@@ -40,6 +39,8 @@ sudo pacman -S --noconfirm \
        xorg-fonts-encodings \
        xorg-xev \
        jdk-openjdk \
+       clipmenu \
+       clipnotify \
        i3-gaps \
        i3status \
        ttf-fira-code \
