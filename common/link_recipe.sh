@@ -6,7 +6,6 @@ echo "###############################################"
 echo "COMMON LINKS"
 echo "###############################################"
 
-ln -sf ~/personal/dotfiles/common/.spacemacs ~/.
 ln -sf ~/personal/dotfiles/common/.gitignore_global ~/.
 ln -sf ~/personal/dotfiles/common/.gitconfig ~/.
 ln -sf ~/personal/dotfiles/common/.fzf.zsh ~/.fzf.zsh

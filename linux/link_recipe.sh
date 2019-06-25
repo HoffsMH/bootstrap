@@ -15,3 +15,4 @@ ln -sf ~/personal/dotfiles/linux/.xinitrc ~/.xinitrc
 ln -sf ~/personal/dotfiles/linux/.Xmodmap ~/.Xmodmap
 ln -sf ~/personal/dotfiles/linux/.profile ~/.profile
 ln -sf ~/personal/dotfiles/linux/.zshrc ~/.zshrc
+ln -sf ~/personal/dotfiles/linux/.spacemacs ~/.spacemacs
