@@ -20,6 +20,9 @@ sudo pacman -S --noconfirm \
        xorg-setroot \
        conky \
        firefox \
+       tree \
+       docker \
+       docker-compose \
        neofetch \
        openssh \
        sudo \
