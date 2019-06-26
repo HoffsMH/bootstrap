@@ -17,6 +17,8 @@ sudo pacman -S --noconfirm \
        emacs \
        xclip \
        xorg-xclipboard \
+       xorg-setroot \
+       conky \
        firefox \
        neofetch \
        openssh \
