@@ -18,7 +18,6 @@ source "$HOME/code/util/bootstrap/config.sh"
 
 ./misc_admin.sh
 
-
 # link common
 ../common/link_recipe.sh
 
