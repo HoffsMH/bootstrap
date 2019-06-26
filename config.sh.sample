@@ -1,7 +1,7 @@
 # xf86-video-*
 GRAPHICS_DRIVER="xf86-video"
 USERNAME="hoffs"
-DOTFILES_REPO="git:github.com/HoffsMH/dotfiles.git"
+DOTFILES_REPO="git://github.com/HoffsMH/dotfiles.git"
 USER_HOME="/home/$USERNAME"
 CODE_DIR="$USER_HOME/code"
 PERSONAL_DIR="$USER_HOME/personal"

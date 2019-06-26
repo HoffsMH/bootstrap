@@ -16,9 +16,14 @@ source "$HOME/code/util/bootstrap/config.sh"
 
 ./get_util.sh
 
+./misc_admin.sh
+
+
 # link common
 ../common/link_recipe.sh
 
 # link linux
 ./link_recipe.sh
+
+../common/gen_ssh_keys.sh
 
