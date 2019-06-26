@@ -11,4 +11,5 @@ yay -S --noconfirm \
     direnv \
     rbenv \
     nodenv \
-    nodenv-node-build
+    nodenv-node-build \
+    slack-desktop-dark
