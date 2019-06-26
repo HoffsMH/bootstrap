@@ -16,4 +16,6 @@ sudo sed -i 's/^\s*\(%wheel\s\+ALL=(ALL)\)\sALL/\1 NOPASSWD: ALL/' /etc/sudoers.
 sudo systemctl disable lightdm.service
 sudo pacman -Rs --no-confirm lightdm light-locker lightdm-gtk-greeter lightdm-gtk-greeter-settings
 
+sudo systemctl enable docker.service
+
 chsh
