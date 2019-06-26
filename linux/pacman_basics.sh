@@ -18,7 +18,9 @@ sudo pacman -S --noconfirm \
        xclip \
        xorg-xclipboard \
        xorg-setroot \
-       conky \
+       conky-cli \
+       feh \
+       youtube-dl \
        firefox \
        tree \
        docker \
