@@ -57,4 +57,5 @@ sudo pacman -S --noconfirm \
        redshift \
        axel \
        syncthing \
-       zathura
+       zathura \
+       zathura-pdf-poppler

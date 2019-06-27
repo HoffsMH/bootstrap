@@ -12,4 +12,6 @@ yay -S --noconfirm \
     rbenv \
     nodenv \
     nodenv-node-build \
-    slack-desktop-dark
+    slack-desktop-dark \
+    taskell \
+    lf-bin

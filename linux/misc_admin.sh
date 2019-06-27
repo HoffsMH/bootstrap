@@ -14,8 +14,14 @@ sudo sed -i 's/^#\s*\(%wheel\s\+ALL=(ALL)\s\+NOPASSWD:\s\+ALL\)/\1/' /etc/sudoer
 sudo sed -i 's/^\s*\(%wheel\s\+ALL=(ALL)\)\sALL/\1 NOPASSWD: ALL/' /etc/sudoers.d/10-installer
 
 sudo systemctl disable lightdm.service
+
+# I dont want a greeter
 sudo pacman -Rs --no-confirm lightdm light-locker lightdm-gtk-greeter lightdm-gtk-greeter-settings
 
 sudo systemctl enable docker.service
+sudo systemctl start docker.service
+
+sudo systemctl enable "syncthing@$USERNAME.service"
+sudo systemctl start "syncthing@$USERNAME.service"
 
 chsh
