@@ -20,7 +20,6 @@ sudo pacman -S --noconfirm \
        xorg-setroot \
        conky-cli \
        feh \
-       youtube-dl \
        firefox \
        tree \
        docker \
