@@ -29,6 +29,7 @@ sudo pacman -S --noconfirm \
        openssh \
        sudo \
        networkmanager \
+       mpv \
        grub \
        figlet \
        zsh \

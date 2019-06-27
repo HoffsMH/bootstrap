@@ -16,10 +16,14 @@ mkdir -p "$USER_HOME/code/util" \
       "$PERSONAL_DIR/media/audio/capture" \
       "$PERSONAL_DIR/media/video/capture" \
       "$PERSONAL_DIR/media/image/wall" \
-      "$PERSONAL_DIR/media/image/ss"
+      "$PERSONAL_DIR/media/image/ss" \
+      "$PERSONAL_DIR/media/.yt-dl-archive"
 
 touch "$PERSONAL_DIR/media/dlscript.sh"
+touch "$PERSONAL_DIR/media/.yt-dl-archive/archive"
 chmod +x "$PERSONAL_DIR/media/dlscript.sh"
+
+cp "$PERSONAL_DIR/dotfiles/linux/dlscript.sh" "$PERSONAL_DIR/media/dlscript.sh"
 
 
 # install and aurutils for later scripts
