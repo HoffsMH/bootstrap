@@ -10,13 +10,16 @@ source "$HOME/code/util/bootstrap/config.sh"
 
 ./create_dirs.sh
 
-./install_yay.sh
+# manjaro can already have this enable only if yay is not already installed
+#./install_yay.sh
 
 ./yay_basics.sh
 
 ./get_util.sh
 
 ./misc_admin.sh
+
+./gen_util.sh
 
 # link common
 ../common/link_recipe.sh

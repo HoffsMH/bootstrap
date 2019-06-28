@@ -17,7 +17,7 @@ sudo pacman -S --noconfirm \
        emacs \
        xclip \
        xorg-xclipboard \
-       xorg-setroot \
+       xorg-xsetroot \
        conky-cli \
        feh \
        firefox \

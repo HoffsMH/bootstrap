@@ -23,8 +23,8 @@ touch "$PERSONAL_DIR/media/dlscript.sh"
 touch "$PERSONAL_DIR/media/.yt-dl-archive/archive"
 chmod +x "$PERSONAL_DIR/media/dlscript.sh"
 
-cp "$PERSONAL_DIR/dotfiles/linux/dlscript.sh" "$PERSONAL_DIR/media/dlscript.sh"
 
 
+rm -fr "$PERSONAL_DIR/dotfiles"
 # install and aurutils for later scripts
 git clone $DOTFILES_REPO "$PERSONAL_DIR/dotfiles"
