@@ -14,4 +14,5 @@ yay -S --noconfirm \
     nodenv-node-build \
     slack-desktop-dark \
     taskell \
-    lf-bin
+    lf-bin \
+    google-chat-linux
