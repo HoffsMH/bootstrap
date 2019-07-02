@@ -14,4 +14,8 @@ yay -S --noconfirm \
     nodenv-node-build \
     slack-desktop-dark \
     taskell \
-    lf-bin 
+    lf-bin \
+    sublime-text-dev \
+    visual-studio-code-bin
+
+
