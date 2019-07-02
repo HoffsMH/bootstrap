@@ -9,6 +9,8 @@ echo "###############################################"
 
 sudo pacman -Syu --noconfirm
 sudo pacman -S --noconfirm \
+       pulsemixer \
+       gnutls
        vim \
        fzf \
        fasd \
