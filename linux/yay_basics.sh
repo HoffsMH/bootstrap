@@ -4,7 +4,7 @@ set -e
 
 
 echo "###############################################"
-echo "PACMAN BASIC RECIPE"
+echo "YAY BASIC RECIPE"
 echo "###############################################"
 
 yay -S --noconfirm \
@@ -14,5 +14,4 @@ yay -S --noconfirm \
     nodenv-node-build \
     slack-desktop-dark \
     taskell \
-    lf-bin \
-    google-chat-linux
+    lf-bin 

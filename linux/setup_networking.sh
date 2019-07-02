@@ -11,5 +11,5 @@ echo "###############################################"
 
 systemctl enable NetworkManager
 systemctl start NetworkManager
-systemctl status NetworkManager
+#systemctl status NetworkManager
 nmcli device wifi connect "$WIFI_SSID" password "$WIFI_PASSWORD"

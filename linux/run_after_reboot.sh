@@ -27,5 +27,8 @@ source "$HOME/code/util/bootstrap/config.sh"
 # link linux
 ./link_recipe.sh
 
+# if on mac hardware
+#./link_recipe_mac_hardware.sh
+
 ../common/gen_ssh_keys.sh
 
