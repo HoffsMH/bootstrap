@@ -31,6 +31,7 @@ sudo pacman -S --noconfirm \
        sudo \
        networkmanager \
        mpv \
+       light \
        grub \
        figlet \
        zsh \
