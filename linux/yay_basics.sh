@@ -16,6 +16,7 @@ yay -S --noconfirm \
     taskell \
     lf-bin \
     sublime-text-dev \
-    visual-studio-code-bin
+    visual-studio-code-bin \
+    google-chrome
 
 

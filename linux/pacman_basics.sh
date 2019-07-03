@@ -63,4 +63,5 @@ sudo pacman -S --noconfirm \
        axel \
        syncthing \
        zathura \
-       zathura-pdf-poppler
+       zathura-pdf-poppler \
+       flameshot
