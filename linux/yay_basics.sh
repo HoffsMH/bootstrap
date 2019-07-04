@@ -18,6 +18,7 @@ yay -S --noconfirm \
     sublime-text-dev \
     visual-studio-code-bin \
     google-chrome \
-    deluge-git
+    deluge-git \
+    ruby-build
 
 
