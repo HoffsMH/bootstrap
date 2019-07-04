@@ -19,6 +19,7 @@ yay -S --noconfirm \
     visual-studio-code-bin \
     google-chrome \
     deluge-git \
-    ruby-build
+    ruby-build \
+    python-grip
 
 
