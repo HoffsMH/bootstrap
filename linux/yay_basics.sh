@@ -17,6 +17,7 @@ yay -S --noconfirm \
     lf-bin \
     sublime-text-dev \
     visual-studio-code-bin \
-    google-chrome
+    google-chrome \
+    deluge-git
 
 
